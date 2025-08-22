@@ -14,12 +14,13 @@ execute:
 
 
 website:
-  repo-url: https://github.com/inqs909/m201_s25
+  repo-url: https://github.com/inqs909/m2012_f25
   title: "MATH 201"
-  site-url: www.inqs.info/m201_s25
+  site-url: www.inqs.info/m2012_f25
   navbar:
     right:
-      - syllabus.qmd
+      - syllabus_201.qmd
+      - syllabus_202.qmd
       - lectures.qmd
       - ec.qmd
 
