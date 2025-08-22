@@ -1,0 +1,47 @@
+---
+title: "Extra Credit 1"
+description: Instructions for extra credit one.
+navbar: false
+date: 01-05-2025
+editor: source
+format:
+  html: 
+    code-fold: true
+    html-math-method: katex
+---
+
+**Complete One of the Following Assignments**
+
+**Due 2/14/2024**
+
+**Worth 1 final grade percentage points.**
+
+### Visit a Lunch and/or Research Talk
+
+
+Candidates will be visiting the campus for the Data Science Position. It is important for the hiring committee to get student feedback for each candidate. There will be 3 candidates visiting campus, where they will interact with students community time, during lunch, and their research talk. This means there is a total of 9 opportunities to visit a candidate. 
+
+To obtain credit, you must visit one cancdidate during their lunch or research talk, and provide feedback and sign in.
+
+| Candidate | Day | Community Time | Lunch | Research |
+|:-|:-|:-|:-|:-|
+| 1 | Monday (1/27) | 9:30-10 AM (BTE 2810) | 12:10-1:15 PM (Island's Cafe; 10 Students Max) | 2-3 PM (Broome 1710) |
+| 2 | Monday (2/3) | 9:30-10 AM (BTE 2810) | 12:10-1:15 PM (Island's Cafe) | 2-3 PM (BT 1642) |
+| 3 | Tuesday (2/4) | 9:30-10 & 11-11:20 (BTE 2810) | 11:30-12:15 PM (Island's Cafe) | 1-2 PM (BT 1462) |
+
+**Note: you can attend more than one meeting.**
+
+### Write a Wellness Plan
+
+Write a welness plan to ensure you will maintain your overall well being.
+
+Report guidelines
+
+-   1-2 Pages
+
+-   Double Spaced
+
+-   12 point font
+
+
+
