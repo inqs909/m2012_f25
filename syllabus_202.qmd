@@ -117,10 +117,24 @@ The following outline may be subject to change. Any changes will be announced in
 | 12/1  | Traditional Statistics           |           |        |           |
 | 12/8  | Exam 3                           |           |        |           |
 
-### Use of Generative Artificial Intelligence
+### Generative Artificial Intelligence Policy
 
-The use of generative artificial intelligence (AI) will be prohibited in class. This includes, but not limited to, ChatGPT, Meta AI, Google Gemini.  
+The use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.
 
+#### Permitted Uses
+You may use AI for:
+- Obtain clarification 
+- Brainstorming ideas, examples, outlines, and strategies
+- Generating questions for practice or exploration
+- Identifying keywords or phrasing to match professional goals
+
+#### Prohibited Uses
+You may not:
+- Submit AI-generated work 
+- Use AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work
+- Use AI to generate code
+
+Any AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.
 ### University Policies
 
 1.  **Academic Honesty**:

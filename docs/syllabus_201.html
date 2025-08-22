@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Extra Credit – MATH 201</title>
+<title>Syllabus – MATH 201</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,119 +67,43 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">MATH 201</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">syllabus.qmd</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lectures.html"> 
-<span class="menu-text">Lectures</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./ec.html" aria-current="page"> 
-<span class="menu-text">Extra Credit</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#math-201-elementary-statistics" id="toc-math-201-elementary-statistics" class="nav-link active" data-scroll-target="#math-201-elementary-statistics">Math 201: Elementary Statistics</a>
+  <ul class="collapse">
+  <li><a href="#course-information" id="toc-course-information" class="nav-link" data-scroll-target="#course-information">Course Information</a></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  <li><a href="#textbook" id="toc-textbook" class="nav-link" data-scroll-target="#textbook">Textbook</a></li>
+  <li><a href="#course-grading" id="toc-course-grading" class="nav-link" data-scroll-target="#course-grading">Course Grading</a></li>
+  <li><a href="#class-schedule" id="toc-class-schedule" class="nav-link" data-scroll-target="#class-schedule">Class Schedule</a></li>
+  <li><a href="#generative-artificial-intelligence-policy" id="toc-generative-artificial-intelligence-policy" class="nav-link" data-scroll-target="#generative-artificial-intelligence-policy">Generative Artificial Intelligence Policy</a></li>
+  <li><a href="#university-policies" id="toc-university-policies" class="nav-link" data-scroll-target="#university-policies">University Policies</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="syllabus_201.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Extra Credit</h1>
+<h1 class="title">Syllabus</h1>
 </div>
 
 
@@ -198,105 +120,317 @@ window.Quarto = {
 </header>
 
 
-<p>Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.</p>
-<p>Below is more information on each assignment.</p>
+<section id="math-201-elementary-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="math-201-elementary-statistics">Math 201: Elementary Statistics</h2>
+<section id="course-information" class="level3">
+<h3 class="anchored" data-anchor-id="course-information">Course Information</h3>
+<p><strong>Term:</strong> Fall 2025</p>
+<p><strong>Instructor:</strong> Isaac Quintanilla Salinas</p>
+<p><strong>Email:</strong> isaac.qs@csuci.edu</p>
+<p><strong>Office Location:</strong> Marin Hall 2326</p>
+<p><strong>Office Hours:</strong></p>
+<ul>
+<li>Tue/Thur 5-6 PM</li>
+<li>Wed 2-4 PM</li>
+</ul>
+<p>Or by Zoom appointment.</p>
+<p><strong>Lecture:</strong></p>
+<p>Monday/Wednesday 4:30 PM - 5:45 PM</p>
+</section>
+<section id="course-description" class="level3">
+<h3 class="anchored" data-anchor-id="course-description">Course Description</h3>
+<p>Critical reasoning using a quantitative and statistical, problem-solving approach to solving real-world problems. Topics include: probability and statistics, sample data, probability and empirical data distributions, sampling techniques, estimation and hypothesis testing, ANOVA, and correlation and regression analysis. Students will use standard statistical software to analyze real-world and simulated data. GenEd: B4</p>
+</section>
+<section id="learning-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h3>
+<ul>
+<li>Prepare students for advanced courses in data-management and statistics</li>
+<li>Reason both inductively and deductively with quantitative information and data</li>
+<li>Use statistical software for complex statistical analysis of real-world and simulated data</li>
+<li>Empower students to apply computational and inferential thinking to address real-world problems</li>
+<li>Write the results of a statistical study and draw conclusion in reports</li>
+</ul>
+</section>
+<section id="textbook" class="level3">
+<h3 class="anchored" data-anchor-id="textbook">Textbook</h3>
+<p><a href="https://openintro-ims.netlify.app/">Introduction to Modern Statistics</a> (IMS)</p>
+<p><a href="https://statistical-modeling.netlify.app/">Statistical Modeling</a> (SM)</p>
+</section>
+<section id="course-grading" class="level3">
+<h3 class="anchored" data-anchor-id="course-grading">Course Grading</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Category</th>
+<th style="text-align: left;">Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Participation</td>
+<td style="text-align: left;">5%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Video Assignments</td>
+<td style="text-align: left;">25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Notebook Assignments</td>
+<td style="text-align: left;">25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exam 1</td>
+<td style="text-align: left;">15%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exam 2</td>
+<td style="text-align: left;">15%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exam 3</td>
+<td style="text-align: left;">15%</td>
+</tr>
+</tbody>
+</table>
+<p>At the end of the quarter, course grades will be assigned according to the following scale:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A+</strong></td>
+<td style="text-align: left;">98 – 100</td>
+<td style="text-align: left;"><strong>B+</strong></td>
+<td style="text-align: left;">87 – &lt;90</td>
+<td style="text-align: left;"><strong>C+</strong></td>
+<td style="text-align: left;">77 – &lt;80</td>
+<td style="text-align: left;"><strong>D+</strong></td>
+<td style="text-align: left;">67 – &lt;70</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>A</strong></td>
+<td style="text-align: left;">93 – &lt;98</td>
+<td style="text-align: left;"><strong>B</strong></td>
+<td style="text-align: left;">83 – &lt;87</td>
+<td style="text-align: left;"><strong>C</strong></td>
+<td style="text-align: left;">73 – &lt;77</td>
+<td style="text-align: left;"><strong>D</strong></td>
+<td style="text-align: left;">63 – &lt;67</td>
+<td style="text-align: left;"><strong>F</strong></td>
+<td style="text-align: left;">&lt; 60</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>A–</strong></td>
+<td style="text-align: left;">90 - &lt;93</td>
+<td style="text-align: left;"><strong>B-</strong></td>
+<td style="text-align: left;">80 – &lt;83</td>
+<td style="text-align: left;"><strong>C–</strong></td>
+<td style="text-align: left;">70 – &lt;73</td>
+<td style="text-align: left;"><strong>D–</strong></td>
+<td style="text-align: left;">60 – &lt;63</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<section id="participation" class="level4">
+<h4 class="anchored" data-anchor-id="participation">Participation</h4>
+<p>Participation is based on short writing assignments conducted in class. There will be no make ups for these writing prompts.</p>
+</section>
+<section id="notebook-assignments" class="level4">
+<h4 class="anchored" data-anchor-id="notebook-assignments">Notebook Assignments</h4>
+<p>Notebook assignments are designed to expand your statistical knowledge. These will be completed in Google Colab which can be accessed from Canvas. There is one notebook assignments every week that you can be completed during class time. Notebook assignments will be due on Thursday at 11:59 PM every week. The 3 lowest notebook assignments will be dropped.</p>
+</section>
+<section id="video-assignments" class="level4">
+<h4 class="anchored" data-anchor-id="video-assignments">Video Assignments</h4>
+<p>Videos are used to teach statistical concepts related to the course. Students are expected to watch at least one video a week. The videos are implemented using VoiceThreads. The 3 lowest video assignments will be dropped. Video assignments will be due every Sunday at 11:59 PM.</p>
+</section>
+<section id="exams" class="level4">
+<h4 class="anchored" data-anchor-id="exams">Exams</h4>
+<p>There will be three in exams. Exam #1 will be on September 29, 2025, Exam #2 will be on November 3, and Exam #3 will be on . While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average of all 3 exam grades. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.</p>
+</section>
+<section id="extra-credit" class="level4">
+<h4 class="anchored" data-anchor-id="extra-credit">Extra Credit</h4>
+<p>There will be <strong>4</strong> extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date. Information on the extra credit can be found <a href="ec.html">here</a>.</p>
+</section>
+</section>
+<section id="class-schedule" class="level3">
+<h3 class="anchored" data-anchor-id="class-schedule">Class Schedule</h3>
+<p>The following outline may be subject to change. Any changes will be announced in class.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 47%">
+<col style="width: 15%">
+<col style="width: 11%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Week</th>
+<th style="text-align: left;">Topic</th>
+<th style="text-align: left;">Readings</th>
+<th style="text-align: left;">NB Due</th>
+<th style="text-align: left;">Video Due</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">8/25</td>
+<td style="text-align: left;">Welcome/Intro to Stats and R</td>
+<td style="text-align: left;">SM 3</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9/1</td>
+<td style="text-align: left;">Holiday/ Data Generating Process</td>
+<td style="text-align: left;">IMS 4</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9/8</td>
+<td style="text-align: left;">Categorical Data</td>
+<td style="text-align: left;">IMS 5</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9/15</td>
+<td style="text-align: left;">Numerical Data</td>
+<td style="text-align: left;">SM 11</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9/22</td>
+<td style="text-align: left;">Distribution Functions</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9/29</td>
+<td style="text-align: left;">Exam 1/ Simple Linear Regression</td>
+<td style="text-align: left;">IMS 7</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10/6</td>
+<td style="text-align: left;">Simple Linear Regression</td>
+<td style="text-align: left;">IMS 8</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10/13</td>
+<td style="text-align: left;">Multi Linear Regression</td>
+<td style="text-align: left;">IMS 9</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10/20</td>
+<td style="text-align: left;">Logistic Regression</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10/27</td>
+<td style="text-align: left;">Model Prediction</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11/3</td>
+<td style="text-align: left;">Exam 2/ Sampling Distribution</td>
+<td style="text-align: left;">SM 12</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11/10</td>
+<td style="text-align: left;">Holiday/ Sampling Distribution</td>
+<td style="text-align: left;">SM 13</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11/17</td>
+<td style="text-align: left;">Inference</td>
+<td style="text-align: left;">IMS 24/26</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11/24</td>
+<td style="text-align: left;">Model Inference</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">12/1</td>
+<td style="text-align: left;">Traditional Statistics</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12/8</td>
+<td style="text-align: left;">Exam 3</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="generative-artificial-intelligence-policy" class="level3">
+<h3 class="anchored" data-anchor-id="generative-artificial-intelligence-policy">Generative Artificial Intelligence Policy</h3>
+<p>The use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.</p>
+<section id="permitted-uses" class="level4">
+<h4 class="anchored" data-anchor-id="permitted-uses">Permitted Uses</h4>
+<p>You may use AI for: - Obtain clarification - Brainstorming ideas, examples, outlines, and strategies - Generating questions for practice or exploration - Identifying keywords or phrasing to match professional goals</p>
+</section>
+<section id="prohibited-uses" class="level4">
+<h4 class="anchored" data-anchor-id="prohibited-uses">Prohibited Uses</h4>
+<p>You may not: - Submit AI-generated work - Use AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work - Use AI to generate code</p>
+<p>Any AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.</p>
+</section>
+</section>
+<section id="university-policies" class="level3">
+<h3 class="anchored" data-anchor-id="university-policies">University Policies</h3>
+<ol type="1">
+<li><p><strong>Academic Honesty</strong>:</p>
+<p>Conduct yourself with honesty and integrity. Do not submit others’ work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.</p></li>
+<li><p><strong>Disabilities:</strong></p>
+<p>If you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: <a href="https://www.csuci.edu/dass/students/apply-for-services.htm" class="uri">https://www.csuci.edu/dass/students/apply-for-services.htm</a>. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.</p></li>
+<li><p><strong>Emergency Procedure Notice to Students:</strong></p>
+<p>CSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University’s Spring 2023 Semester <a href="https://www.csuci.edu/news/campus-updates/covid-19/index.htm">website</a> or they may be subject to removal from the classroom.</p></li>
+</ol>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1736064000000" data-listing-file-modified-sort="1755720707789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
-<div class="thumbnail"><a href="./ec/ec_1.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./ec/ec_1.html" class="no-external">Extra Credit 1</a>
-</h3>
-<div class="delink listing-description"><a href="./ec/ec_1.html" class="no-external">
-<p>Instructions for extra credit one.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./ec/ec_1.html" class="no-external">
-<div class="listing-date">
-Jan 5, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1736064000000" data-listing-file-modified-sort="1755720707789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<div class="thumbnail"><a href="./ec/ec_2.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./ec/ec_2.html" class="no-external">Extra Credit 2</a>
-</h3>
-<div class="delink listing-description"><a href="./ec/ec_2.html" class="no-external">
-<p>Instructions for extra credit two.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./ec/ec_2.html" class="no-external">
-<div class="listing-date">
-Jan 5, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1736064000000" data-listing-file-modified-sort="1755720707789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<div class="thumbnail"><a href="./ec/ec_3.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./ec/ec_3.html" class="no-external">Extra Credit 3</a>
-</h3>
-<div class="delink listing-description"><a href="./ec/ec_3.html" class="no-external">
-<p>Instructions for extra credit three.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./ec/ec_3.html" class="no-external">
-<div class="listing-date">
-Jan 5, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1736064000000" data-listing-file-modified-sort="1755720707789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
-<div class="thumbnail"><a href="./ec/ec_4.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./ec/ec_4.html" class="no-external">Extra Credit 4</a>
-</h3>
-<div class="delink listing-description"><a href="./ec/ec_4.html" class="no-external">
-<p>Instructions for extra credit four.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./ec/ec_4.html" class="no-external">
-<div class="listing-date">
-Jan 5, 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
