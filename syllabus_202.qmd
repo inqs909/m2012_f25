@@ -58,6 +58,7 @@ Critical reasoning using a quantitative and statistical problem-solving approach
 | Category             | Percentage |
 |:---------------------|:-----------|
 | Participation        | 5%         |
+| Classwork            | 10%        |
 | Video Assignments    | 25%        | 
 | Notebook Assignments | 25%        |
 | Exam 1               | 15%        |
@@ -122,19 +123,31 @@ The following outline may be subject to change. Any changes will be announced in
 The use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.
 
 #### Permitted Uses
+
 You may use AI for:
+
 - Obtain clarification 
+
 - Brainstorming ideas, examples, outlines, and strategies
+
 - Generating questions for practice or exploration
+
 - Identifying keywords or phrasing to match professional goals
 
 #### Prohibited Uses
+
 You may not:
+
 - Submit AI-generated work 
+
 - Use AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work
+
 - Use AI to generate code
 
 Any AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.
+
+
+
 ### University Policies
 
 1.  **Academic Honesty**:
