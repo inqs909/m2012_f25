@@ -1,6 +1,6 @@
 ---
 title: "Welcome!"
-subtitle: "Introduction to Statistics"
+subtitle: "Introduction to Bio/Statistics"
 format:
   revealjs:
     scrollable: true
@@ -32,7 +32,7 @@ editor: source
 
 ## Slides
 
-[m201.inqs.info/c/1a](https://m201.inqs.info/c/1a#/title-slide)
+[www.inqs.info/m2012_f25/c/1a](https://www.inqs.info/m2012_f25/c/1a#/title-slide)
 
 
 # Introductions
@@ -74,7 +74,7 @@ editor: source
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](img/Headshot.jpg.jpg)
+![](img/Headshot.jpg)
 :::
 
 ::: {.column width="50%"}
@@ -88,8 +88,6 @@ editor: source
 
 
 # Early Success Module
-
-## Early Succes Module (ESM)
 
 ## Assignments
 
@@ -128,7 +126,7 @@ For every 1 unit of class you take, you are expected to spend ~3 hours outside o
 
 ## R Programming
 
-This class you will use R programming to conduct data analysis.
+This utilized the R programming to conduct data analysis.
 
 R is a powerful tool that allows you to program complex tasks.
 
@@ -145,7 +143,33 @@ Learning R is difficult, but it is the best teacher to teach you how to overcome
 
 ## Use of Generative AI
 
-The use of generative artificial intelligence (AI) will be prohibited in class. This includes, but not limited to, ChatGPT, Meta AI, and Google Gemini.
+The use of generative artificial intelligence (AI) to complete any part or all of an assignment/exam is strictly prohibited in this class. This includes, but not limited to, ChatGPT, Claude, Meta AI, and Google Gemini.
+
+::: fragment
+
+You may use AI to enhance you understanding of the material.
+
+:::
+
+::: fragment
+
+You may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini.  Exceptions are allowed for [DASS](https://www.csuci.edu/dass/)-approved services.
+
+
+:::
+
+## Use of AI
+
+There are consequences when you use of AI:
+
+- Educational Mislearning
+- Trusting AI
+- Stolen Work
+- Privacy Concerns
+- Environmental Impacts
+- Working Exploitation
+
+
 
 ## Educational Mislearning
 
@@ -160,8 +184,31 @@ You will not develop the skills needed to problem solve a challenge. Additionall
 To learn something, it requires hours of work! If not years!
 :::
 
+## Trusting AI
 
-## Stolen WorkMonday have their work to be used this way.
+When using AI, you must acknowledge its limitations:
+
+::: incremental
+
+- Responses provided may be incorrect
+
+- Responses may not be fair
+
+- Companies may manipulate responses and/or terms of service for their benefit
+
+- Companies may not have your best interst in mind
+:::
+
+::: fragment
+
+**You should always proceed with caution utilizing these tools!**
+
+:::
+
+
+
+
+## Stolen Work
 
 ::: fragment
 Additionally, all these individuals are not receiving any royalties for the work to be used in creating generative AI models.
@@ -186,21 +233,11 @@ Do you want to upload your thoughts and ideas to a company that can monetize, an
 :::
 
 ::: fragment
-Does your Professors consent with you uploading their assignments to large language models.
+Does your Professors consent with you uploading their assignments to large language models?
 :::
 
 ::: fragment
 Stanford provided a [report](https://hai.stanford.edu/news/privacy-ai-era-how-do-we-protect-our-personal-information) highlighting the risks of our personal data use in large language models.
-:::
-
-## Math 201 Consent
-
-::: fragment
-Dr. Isaac Quintanilla Salinas consents in you sharing course material to your friends and family for learning purposes. Use the material to educate and uplift your community.
-:::
-
-::: fragment
-Dr. Isaac Quintanilla Salinas does not consent in you sharing course material to companies/corporations. Additionally, I do not consent in the use of course material for academic dishonesty. Exceptions are allowed for [DASS](https://www.csuci.edu/dass/)-approved services.
 :::
 
 ## Environmental Impact
@@ -239,20 +276,24 @@ NO
 :::
 
 ::: fragment
-What we should do is demand companies to develop these tools in an ethical manner!
+But, we need to acknowledge the consequences of using AI!
+:::
+
+::: fragment
+And, we need to demand companies to create and implement AI in an ethical manner!
 :::
 
 # Surveys
 
 ## Intro Form
 
-<https://forms.gle/JWaUdgKB6qui98yz5>
+<https://forms.gle/jtBNkTNwpQLD59NE7>
 
 ![](img/frame.png){fig-align="center"}
 
-## Survey
+## First Survey
 
-<https://forms.gle/BCMDgB3pDHJ1MmSYA>
+<https://forms.gle/FMGMRXoT9cr2m8jL6>
 
 ![](img/frame (1).png){fig-align="center"}
 
@@ -261,19 +302,19 @@ What we should do is demand companies to develop these tools in an ethical manne
 
 ## Extra Credit 1
 
-<p><iframe title="embedded content" src="https://www.inqs.info/m201_s25/ec/ec_1.html" width="1100" height="700"></iframe></p>
+<p><iframe title="embedded content" src="https://www.inqs.info/m2012_f25/ec/ec_1.html" width="1100" height="700"></iframe></p>
 
 ## Extra Credit 2
 
-<p><iframe title="embedded content" src="https://www.inqs.info/m201_s25/ec/ec_2.html" width="1100" height="700"></iframe></p>
+<p><iframe title="embedded content" src="https://www.inqs.info/m2012_f25/ec/ec_2.html" width="1100" height="700"></iframe></p>
 
 ## Extra Credit 3
 
-<p><iframe title="embedded content" src="https://www.inqs.info/m201_s25/ec/ec_3.html" width="1100" height="700"></iframe></p>
+<p><iframe title="embedded content" src="https://www.inqs.info/m2012_f25/ec/ec_3.html" width="1100" height="700"></iframe></p>
 
 ## Extra Credit 4
 
-<p><iframe title="embedded content" src="https://www.inqs.info/m201_s25/ec/ec_4.html" width="1100" height="700"></iframe></p>
+<p><iframe title="embedded content" src="https://www.inqs.info/m2012_f25/ec/ec_4.html" width="1100" height="700"></iframe></p>
 
 
 # Field Trip
