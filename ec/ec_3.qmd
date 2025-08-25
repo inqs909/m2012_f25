@@ -10,7 +10,7 @@ format:
     html-math-method: katex
 ---
 
-Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The majority of these books are available through the Broome Library.
+After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use is visual aids, such as a powerpoint presentation, to highlight your main findings. All books should be available through the Broome Library.
 
 **Books:**
 
@@ -26,20 +26,14 @@ Provide a summary of one book below, an write a brief analysis in supporting or 
 
     -   Carol Dweck
 
-Report guidelines
+**Video Essay Guidelines:**
 
--   4-5 Pages
+-   10 Minutes Long
 
--   Must include a title page
+-   Use of visual aids
 
--   Double Spaced
+-   Narrated by your own voice
 
--   12 point font
-
--   Proofread your work
-
--   Submit a pdf of your work to Canvas
-
--   **Due 5/9/2025**
+-   **Due 12/5/2025**
 
 **Worth 3 final grade percentage points.**
