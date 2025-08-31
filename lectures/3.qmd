@@ -1,6 +1,5 @@
 ---
 title: "Categorical Data"
-date: 1/27/25
 description: |
   Provides an overview descriptive statistics and data visualization techniques for categorical data.
 
@@ -329,7 +328,7 @@ A **pie chart** is a circular statistical graphic divided into slices, where eac
 
 ```{r}
 #| echo: false
-#| eval: false
+#| eval: true
 coffee_pie <- cat_stats(coffee$caffeine, tbl_df = TRUE)$table
 ggplot(coffee_pie, aes(cat = Category, val = n, fill = Category)) +
   geom_pie()
