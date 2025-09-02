@@ -1,6 +1,6 @@
 ---
 title: "Data Generating Process"
-date: 1/21/25
+date: 9/2/25
 description: |
   Provide a Brief Introduction of Data, Study Design, and the Data Generating Process.
 format:
