@@ -1,6 +1,5 @@
 ---
 title: "Distribution Functions"
-date: 2/11/25
 format:
   revealjs:
     width: 1200
