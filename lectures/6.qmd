@@ -1,6 +1,5 @@
 ---
 title: "Simple Linear Regression"
-date: 2/25/25
 description: |
   Begins the discussion for linear regression.
 
