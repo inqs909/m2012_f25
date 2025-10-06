@@ -1,6 +1,5 @@
 ---
 title: "Inference with Logistic and Poisson Regression"
-date: 4/22/25
 description: |
   Begins the discussion on inference for logistic and Poisson regression.
 format:

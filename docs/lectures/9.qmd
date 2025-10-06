@@ -1,6 +1,5 @@
 ---
 title: "Sampling Distribution"
-date: 4/1/25
 format:
   revealjs:
     width: 1200

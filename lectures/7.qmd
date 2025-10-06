@@ -1,6 +1,5 @@
 ---
 title: "Multivariable Linear Regression"
-date: 3/4/25
 description: |
   Continues the discussion with multi linear regression.
 

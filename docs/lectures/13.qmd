@@ -1,6 +1,5 @@
 ---
 title: "Inference"
-date: 4/8/25
 description: |
   Begins the discussion on Inference.
 

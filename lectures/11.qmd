@@ -1,7 +1,6 @@
 ---
 title: "Inference with Linear Regression"
 date: 4/21/25
-description: |
   Begins the discussion for linear regression.
 
 format:

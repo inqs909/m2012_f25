@@ -1,6 +1,5 @@
 ---
 title: "Logistic Regression"
-date: 3/11/25
 format:
   revealjs:
     width: 1200
