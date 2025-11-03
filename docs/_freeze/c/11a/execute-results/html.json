@@ -1,0 +1,21 @@
+{
+  "hash": "49d0aea267378a0cdcc36146fd1cb73f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exam 2 Review\"\nsubtitle: \"Linear and Logistic Regression\"\ndraft: true\nformat:\n  revealjs:\n    scrollable: true\n    theme: [default, styles.scss]\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    slide-number: true\n    sc-sb-title: h1\n    footer: inqs.info/m2012_f25/c/11a\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      theme: whiteboard\n      chalk-width: 4\nknitr:\n  opts_chunk: \n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \n    \nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n  - reveal-auto-agenda\n  \nauto-agenda:\n  bullets: numbered\n  heading: Agenda\n  \neditor: source\n---\n\n# Announcementsz\n\n## Take Data 260!\n\n::::: columns\n::: {.column width=\"60%\"}\n-   Mathematics for Data Science\n-   Cynthia Flores PhD\n-   Monday and Wednesday 2-3:50 PM\n-   4 Units\n:::\n\n::: {.column width=\"40%\"}\n![](https://math.csuci.edu/about/img/faculty/cynthia-flores.jpg){size=\"50%\" fig-align=\"center\" width=\"250\"}\n:::\n:::::\n\n## Plotathon Workshop\n\n![](img/plotation.png){fig-align=\"center\" width=\"720\"}\n\n# Exam 2 Review\n\n## Linear Regression\n\n-   Fitting Models\n\n-   Interpreting Results\n\n    -   Numerical Predictors\n    -   Categorical Predictors\n\n-   Prediction\n\n## Logistic Regression\n\n-   Fitting Models\n\n-   Interpreting Results    slide-number: true\n\n    -   Numerical Predictors\n    -   Categorical Predictors\n\n-   Prediction\n\n\n## Regression\n\n:::: {.columns}\n::: {.column}\n**Linear Regression**\n\n- Outcome is a number\n\n:::\n\n::: {.column}\n**Logistic Regression**\n\n- Outcome is 2 categories\n\n:::\n::::\n\n## Outcome versus predictors\n\nRead the problem carefully\n\n## Linear Regression\n\nInterpret the slope as is!\n\n## Logistic Regression\n\nExponentiate the slope an interpret the odds ratio!\n\n## Identify Data Type\n\nUse the `glimpse()` function.\n\n## Numerical Predictor\n\nInterpret as a regular math slope.\n\n::: callout-note\n\n### Interpretation\n\nAs x increases by 1 unit, y increases/decreases by an **average** of **b** (coefficients) units\n:::\n\n## Categorical Predictor\n\nInterpret slope in comparison to reference category.\n\n::: callout-note\n\n### Interpretation\n\nWhen the category is x, y is an average of **b** units higher/lower than the reference category.  \n\n:::\n\n## Common Mistakes\n\n- Using the incorrect model\n\n- Incorrect interpretation",
+    "supporting": [
+      "11a_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

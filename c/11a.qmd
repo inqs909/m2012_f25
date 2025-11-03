@@ -1,0 +1,150 @@
+---
+title: "Exam 2 Review"
+subtitle: "Linear and Logistic Regression"
+draft: true
+format:
+  revealjs:
+    scrollable: true
+    theme: [default, styles.scss]
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    slide-number: true
+    sc-sb-title: h1
+    footer: inqs.info/m2012_f25/c/11a
+    controls-tutorial: true
+    incremental: false 
+    chalkboard:
+      theme: whiteboard
+      chalk-width: 4
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+    
+revealjs-plugins:
+  - pointer
+  - verticator
+  
+filters: 
+  - reveal-header
+  - code-fullscreen
+  - reveal-auto-agenda
+  
+auto-agenda:
+  bullets: numbered
+  heading: Agenda
+  
+editor: source
+---
+
+# Announcementsz
+
+## Take Data 260!
+
+::::: columns
+::: {.column width="60%"}
+-   Mathematics for Data Science
+-   Cynthia Flores PhD
+-   Monday and Wednesday 2-3:50 PM
+-   4 Units
+:::
+
+::: {.column width="40%"}
+![](https://math.csuci.edu/about/img/faculty/cynthia-flores.jpg){size="50%" fig-align="center" width="250"}
+:::
+:::::
+
+## Plotathon Workshop
+
+![](img/plotation.png){fig-align="center" width="720"}
+
+# Exam 2 Review
+
+## Linear Regression
+
+-   Fitting Models
+
+-   Interpreting Results
+
+    -   Numerical Predictors
+    -   Categorical Predictors
+
+-   Prediction
+
+## Logistic Regression
+
+-   Fitting Models
+
+-   Interpreting Results    slide-number: true
+
+    -   Numerical Predictors
+    -   Categorical Predictors
+
+-   Prediction
+
+
+## Regression
+
+:::: {.columns}
+::: {.column}
+**Linear Regression**
+
+- Outcome is a number
+
+:::
+
+::: {.column}
+**Logistic Regression**
+
+- Outcome is 2 categories
+
+:::
+::::
+
+## Outcome versus predictors
+
+Read the problem carefully
+
+## Linear Regression
+
+Interpret the slope as is!
+
+## Logistic Regression
+
+Exponentiate the slope an interpret the odds ratio!
+
+## Identify Data Type
+
+Use the `glimpse()` function.
+
+## Numerical Predictor
+
+Interpret as a regular math slope.
+
+::: callout-note
+
+### Interpretation
+
+As x increases by 1 unit, y increases/decreases by an **average** of **b** (coefficients) units
+:::
+
+## Categorical Predictor
+
+Interpret slope in comparison to reference category.
+
+::: callout-note
+
+### Interpretation
+
+When the category is x, y is an average of **b** units higher/lower than the reference category.  
+
+:::
+
+## Common Mistakes
+
+- Using the incorrect model
+
+- Incorrect interpretation

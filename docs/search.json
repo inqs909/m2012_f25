@@ -2415,6 +2415,118 @@
     "text": "Complete One of the Following Assignments\nDue 9/12/2025\nWorth 1 final grade percentage points.\n\nWrite a Wellness Plan\nWrite a welness plan to ensure you will maintain your overall well being.\nReport guidelines\n\n2-3 Pages\nDouble Spaced\n12 point font"
   },
   {
+    "objectID": "c/15b.html#traditional-statistics",
+    "href": "c/15b.html#traditional-statistics",
+    "title": "Installing R and Rstudio",
+    "section": "Traditional Statistics",
+    "text": "Traditional Statistics\nTraditional Statistics methods can conducted using either linear or logistic regression.\nVisit Here for more information."
+  },
+  {
+    "objectID": "c/15b.html#what-is-statistics",
+    "href": "c/15b.html#what-is-statistics",
+    "title": "Installing R and Rstudio",
+    "section": "What is Statistics?",
+    "text": "What is Statistics?\nIt is the study of variation and randomness!"
+  },
+  {
+    "objectID": "c/15b.html#whats-the-goal-of-statistics",
+    "href": "c/15b.html#whats-the-goal-of-statistics",
+    "title": "Installing R and Rstudio",
+    "section": "What’s the goal of Statistics?",
+    "text": "What’s the goal of Statistics?\n\nINFERENCE\n\n\nUse our sample data to understand the larger population.\n\n\nThe data will tell us how the population generally behaves.\n\n\nThe data will guide us in the differences in units.\n\n\nData will tell us if there is a signal or just noise."
+  },
+  {
+    "objectID": "c/15b.html#final-thoughts",
+    "href": "c/15b.html#final-thoughts",
+    "title": "Installing R and Rstudio",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\n\nWhen conducting a study, literature review and study design are as equally important as statistics.\n\n\nIf you don’t see variability in the data, something is wrong.\n\n\nFocus on consistency in the methodology, not consistency in data.\n\n\nUnderstand that you can be wrong, and that is okay.\n\n\nDon’t let data influence the methodology during a study/experiment."
+  },
+  {
+    "objectID": "c/15b.html#statistics-mantra",
+    "href": "c/15b.html#statistics-mantra",
+    "title": "Installing R and Rstudio",
+    "section": "Statistics Mantra",
+    "text": "Statistics Mantra\n\n\n\n\n\n\n\n\nAll models are wrong,\nsome are useful!"
+  },
+  {
+    "objectID": "c/15b.html#final-survey-1",
+    "href": "c/15b.html#final-survey-1",
+    "title": "Installing R and Rstudio",
+    "section": "Final Survey",
+    "text": "Final Survey\nSurvery"
+  },
+  {
+    "objectID": "c/15b.html#installing-r",
+    "href": "c/15b.html#installing-r",
+    "title": "Installing R and Rstudio",
+    "section": "Installing R",
+    "text": "Installing R\nhttps://cloud.r-project.org/"
+  },
+  {
+    "objectID": "c/15b.html#installing-rstudio",
+    "href": "c/15b.html#installing-rstudio",
+    "title": "Installing R and Rstudio",
+    "section": "Installing RStudio",
+    "text": "Installing RStudio\nhttps://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "c/15b.html#installing-rtools-windows",
+    "href": "c/15b.html#installing-rtools-windows",
+    "title": "Installing R and Rstudio",
+    "section": "Installing RTools (Windows)",
+    "text": "Installing RTools (Windows)\nhttps://cran.r-project.org/bin/windows/Rtools/"
+  },
+  {
+    "objectID": "c/15b.html#tidyverse",
+    "href": "c/15b.html#tidyverse",
+    "title": "Installing R and Rstudio",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\ninstall.packages(\"tidyverse\")"
+  },
+  {
+    "objectID": "c/15b.html#csucistats",
+    "href": "c/15b.html#csucistats",
+    "title": "Installing R and Rstudio",
+    "section": "csucistats",
+    "text": "csucistats\n\ninstall.packages('csucistats', \n                 repos = c('https://inqs909.r-universe.dev', \n                           'https://cloud.r-project.org'))"
+  },
+  {
+    "objectID": "c/15b.html#other-packages",
+    "href": "c/15b.html#other-packages",
+    "title": "Installing R and Rstudio",
+    "section": "Other Packages",
+    "text": "Other Packages\n\ninstall.packages(c(\"ggthemes\", \"statmod\", \"car\", \"ggpubr\", \"lmtest\", \"rms\", \"palmerpenguins\"))\ncsucistats::install_plots()\ncsucistats::install_themes()"
+  },
+  {
+    "objectID": "c/15b.html#load-packages",
+    "href": "c/15b.html#load-packages",
+    "title": "Installing R and Rstudio",
+    "section": "Load Packages",
+    "text": "Load Packages\n\nlibrary(tidyverse)\nlibrary(csucistats)\nlibrary(ggthemes)\nlibrary(waffle)\nlibrary(ggmosaic)\nlibrary(ggtricks)\nlibrary(ggtext)\nlibrary(ggpubr)\nlibrary(ThemePark)\nlibrary(car)\nlibrary(lmtest)\nlibrary(rms)\nlibrary(palmerpenguins)"
+  },
+  {
+    "objectID": "c/15b.html#rstudio-layout-1",
+    "href": "c/15b.html#rstudio-layout-1",
+    "title": "Installing R and Rstudio",
+    "section": "RStudio Layout",
+    "text": "RStudio Layout\n\nScripts\nConsole\nEnvironment\nFiles\nEverything else"
+  },
+  {
+    "objectID": "c/15b.html#downloading-data-data",
+    "href": "c/15b.html#downloading-data-data",
+    "title": "Installing R and Rstudio",
+    "section": "Downloading Data Data",
+    "text": "Downloading Data Data\n\nu1 &lt;- \"https://www.inqs.info/p/plotathon/owenWilsonWows.csv\"\nu2 &lt;- \"https://www.inqs.info/p/plotathon/owenWilsonWows.xlsx\"\n\ndownload.file(u1,\n              file.path(getwd(), basename(u1)))\ndownload.file(u2,\n              file.path(getwd(), basename(u2)))"
+  },
+  {
+    "objectID": "c/15b.html#loading-data-1",
+    "href": "c/15b.html#loading-data-1",
+    "title": "Installing R and Rstudio",
+    "section": "Loading Data",
+    "text": "Loading Data"
+  },
+  {
     "objectID": "c/1a.html#slides",
     "href": "c/1a.html#slides",
     "title": "Welcome!",
@@ -2595,118 +2707,6 @@
     "title": "Welcome!",
     "section": "Extra Credit 4",
     "text": "Extra Credit 4"
-  },
-  {
-    "objectID": "c/15b.html#traditional-statistics",
-    "href": "c/15b.html#traditional-statistics",
-    "title": "Installing R and Rstudio",
-    "section": "Traditional Statistics",
-    "text": "Traditional Statistics\nTraditional Statistics methods can conducted using either linear or logistic regression.\nVisit Here for more information."
-  },
-  {
-    "objectID": "c/15b.html#what-is-statistics",
-    "href": "c/15b.html#what-is-statistics",
-    "title": "Installing R and Rstudio",
-    "section": "What is Statistics?",
-    "text": "What is Statistics?\nIt is the study of variation and randomness!"
-  },
-  {
-    "objectID": "c/15b.html#whats-the-goal-of-statistics",
-    "href": "c/15b.html#whats-the-goal-of-statistics",
-    "title": "Installing R and Rstudio",
-    "section": "What’s the goal of Statistics?",
-    "text": "What’s the goal of Statistics?\n\nINFERENCE\n\n\nUse our sample data to understand the larger population.\n\n\nThe data will tell us how the population generally behaves.\n\n\nThe data will guide us in the differences in units.\n\n\nData will tell us if there is a signal or just noise."
-  },
-  {
-    "objectID": "c/15b.html#final-thoughts",
-    "href": "c/15b.html#final-thoughts",
-    "title": "Installing R and Rstudio",
-    "section": "Final Thoughts",
-    "text": "Final Thoughts\n\nWhen conducting a study, literature review and study design are as equally important as statistics.\n\n\nIf you don’t see variability in the data, something is wrong.\n\n\nFocus on consistency in the methodology, not consistency in data.\n\n\nUnderstand that you can be wrong, and that is okay.\n\n\nDon’t let data influence the methodology during a study/experiment."
-  },
-  {
-    "objectID": "c/15b.html#statistics-mantra",
-    "href": "c/15b.html#statistics-mantra",
-    "title": "Installing R and Rstudio",
-    "section": "Statistics Mantra",
-    "text": "Statistics Mantra\n\n\n\n\n\n\n\n\nAll models are wrong,\nsome are useful!"
-  },
-  {
-    "objectID": "c/15b.html#final-survey-1",
-    "href": "c/15b.html#final-survey-1",
-    "title": "Installing R and Rstudio",
-    "section": "Final Survey",
-    "text": "Final Survey\nSurvery"
-  },
-  {
-    "objectID": "c/15b.html#installing-r",
-    "href": "c/15b.html#installing-r",
-    "title": "Installing R and Rstudio",
-    "section": "Installing R",
-    "text": "Installing R\nhttps://cloud.r-project.org/"
-  },
-  {
-    "objectID": "c/15b.html#installing-rstudio",
-    "href": "c/15b.html#installing-rstudio",
-    "title": "Installing R and Rstudio",
-    "section": "Installing RStudio",
-    "text": "Installing RStudio\nhttps://posit.co/download/rstudio-desktop/"
-  },
-  {
-    "objectID": "c/15b.html#installing-rtools-windows",
-    "href": "c/15b.html#installing-rtools-windows",
-    "title": "Installing R and Rstudio",
-    "section": "Installing RTools (Windows)",
-    "text": "Installing RTools (Windows)\nhttps://cran.r-project.org/bin/windows/Rtools/"
-  },
-  {
-    "objectID": "c/15b.html#tidyverse",
-    "href": "c/15b.html#tidyverse",
-    "title": "Installing R and Rstudio",
-    "section": "Tidyverse",
-    "text": "Tidyverse\n\ninstall.packages(\"tidyverse\")"
-  },
-  {
-    "objectID": "c/15b.html#csucistats",
-    "href": "c/15b.html#csucistats",
-    "title": "Installing R and Rstudio",
-    "section": "csucistats",
-    "text": "csucistats\n\ninstall.packages('csucistats', \n                 repos = c('https://inqs909.r-universe.dev', \n                           'https://cloud.r-project.org'))"
-  },
-  {
-    "objectID": "c/15b.html#other-packages",
-    "href": "c/15b.html#other-packages",
-    "title": "Installing R and Rstudio",
-    "section": "Other Packages",
-    "text": "Other Packages\n\ninstall.packages(c(\"ggthemes\", \"statmod\", \"car\", \"ggpubr\", \"lmtest\", \"rms\", \"palmerpenguins\"))\ncsucistats::install_plots()\ncsucistats::install_themes()"
-  },
-  {
-    "objectID": "c/15b.html#load-packages",
-    "href": "c/15b.html#load-packages",
-    "title": "Installing R and Rstudio",
-    "section": "Load Packages",
-    "text": "Load Packages\n\nlibrary(tidyverse)\nlibrary(csucistats)\nlibrary(ggthemes)\nlibrary(waffle)\nlibrary(ggmosaic)\nlibrary(ggtricks)\nlibrary(ggtext)\nlibrary(ggpubr)\nlibrary(ThemePark)\nlibrary(car)\nlibrary(lmtest)\nlibrary(rms)\nlibrary(palmerpenguins)"
-  },
-  {
-    "objectID": "c/15b.html#rstudio-layout-1",
-    "href": "c/15b.html#rstudio-layout-1",
-    "title": "Installing R and Rstudio",
-    "section": "RStudio Layout",
-    "text": "RStudio Layout\n\nScripts\nConsole\nEnvironment\nFiles\nEverything else"
-  },
-  {
-    "objectID": "c/15b.html#downloading-data-data",
-    "href": "c/15b.html#downloading-data-data",
-    "title": "Installing R and Rstudio",
-    "section": "Downloading Data Data",
-    "text": "Downloading Data Data\n\nu1 &lt;- \"https://www.inqs.info/p/plotathon/owenWilsonWows.csv\"\nu2 &lt;- \"https://www.inqs.info/p/plotathon/owenWilsonWows.xlsx\"\n\ndownload.file(u1,\n              file.path(getwd(), basename(u1)))\ndownload.file(u2,\n              file.path(getwd(), basename(u2)))"
-  },
-  {
-    "objectID": "c/15b.html#loading-data-1",
-    "href": "c/15b.html#loading-data-1",
-    "title": "Installing R and Rstudio",
-    "section": "Loading Data",
-    "text": "Loading Data"
   },
   {
     "objectID": "ec.html",
