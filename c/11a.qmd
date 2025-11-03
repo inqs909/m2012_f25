@@ -40,7 +40,7 @@ auto-agenda:
 editor: source
 ---
 
-# Announcementsz
+# Announcements
 
 ## Take Data 260!
 
@@ -62,6 +62,24 @@ editor: source
 ![](img/plotation.png){fig-align="center" width="720"}
 
 # Exam 2 Review
+
+## Exam 2 Information
+
+Upcoming Wednesday/Thursday in your assigned class time.
+
+Topics Include: Linear and Logistic Regression
+
+## Exam 2 Rules
+
+- You will have 75 minutes to complete it.
+- You will need to be in person to receive credit for the exam.
+- It is open book
+- It is open note
+- It is open internet
+- You are not allowed to use any AI
+- You are not allowed to communicate with anyone during exam in any way.
+- You will need to submit the exam by the end of class time to consider it on time.
+
 
 ## Linear Regression
 
