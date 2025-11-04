@@ -62,11 +62,11 @@ editor: source
 
 ![](img/plotation.png){fig-align="center" width="720"}
 
-## Monday 11/10
+## Tuesdat 11/11
 
-Class cancelled on Monday (11/10) due to Veteran's Day
+Class cancelled on Monday (11/11) due to Veteran's Day
 
-Watch the voicethread related to Sampling Distributio and be prepared for class.
+Watch the voicethread related to Sampling Distributions and be prepared for class.
 
 # Exam 2 Review
 
@@ -310,8 +310,18 @@ What research topic keeps you up at night?
 
 ## Any other topics
 
+## Please Fill Out Survey
+
+[Survey](https://docs.google.com/forms/d/e/1FAIpQLSdqNswQcx7evXsX1H66TRYOULTMKoTYlGHfhlVFhqfFQ99t7w/viewform?usp=dialog)
+
 
 # Sampling Distributions
 
-## Each Statistic has a distribution
+## Colab Notebook
 
+[Notebook](https://colab.research.google.com/drive/1NdYhDtWt0OxhDtV71_WexZ9JUXqvDCf-?usp=sharing)
+
+
+## Exit Ticket
+
+[Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSeWeITECEcS4_upr0zUxyrWnbPBoXbWrIlfdRClR4MWffrrFQ/viewform?usp=publish-editor)
