@@ -62,7 +62,7 @@ editor: source
 
 ![](img/plotation.png){fig-align="center" width="720"}
 
-## Tuesdat 11/11
+## Tuesday 11/11
 
 Class cancelled on Monday (11/11) due to Veteran's Day
 
