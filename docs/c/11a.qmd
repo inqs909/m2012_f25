@@ -50,6 +50,7 @@ editor: source
 -   Cynthia Flores PhD
 -   Monday and Wednesday 2-3:50 PM
 -   4 Units
+-   cynthia.flores@csuci.edu
 :::
 
 ::: {.column width="40%"}
@@ -102,7 +103,7 @@ Topics Include: Linear and Logistic Regression
 
 -   Fitting Models
 
--   Interpreting Results    slide-number: true
+-   Interpreting Results  
 
     -   Numerical Predictors
     -   Categorical Predictors
@@ -172,3 +173,4 @@ When the category is x, y is an average of **b** units higher/lower than the ref
 - Using the incorrect model
 
 - Incorrect interpretation
+

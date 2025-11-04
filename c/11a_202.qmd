@@ -10,7 +10,7 @@ format:
     controls-layout: bottom-right
     slide-number: true
     sc-sb-title: h1
-    footer: inqs.info/m2012_f25/c/11a
+    footer: inqs.info/m2012_f25/c/11a_202
     controls-tutorial: true
     incremental: false 
     chalkboard:
@@ -173,4 +173,145 @@ When the category is x, y is an average of **b** units higher/lower than the ref
 - Using the incorrect model
 
 - Incorrect interpretation
+
+## Any Questions
+
+# Topics for Biostatistics 202
+
+## Why did you choose your major?
+
+What is it that brought you to your major?
+
+## Research Topics
+
+What research topic keeps you up at night?
+
+## Penguins
+
+:::: {.columns}
+::: {.column}
+
+- Outcome of Interest: Body Mass
+
+- Predictors of Interest: Flipper Length
+
+:::
+::: {.column}
+
+![Provided by pexels.com](img/penguins.jpg)
+
+:::
+::::
+
+## Heart Disease
+
+:::: {.columns}
+::: {.column}
+
+- Outcome of Interest: Presence of Heart Disease
+
+- Predictors of Interest: Cholesterol
+
+:::
+::: {.column}
+
+![Provided by pexels.com](img/heart.jpg)
+
+:::
+::::
+
+## Frogs and Toads
+
+:::: {.columns}
+::: {.column}
+
+- Outcome of Interest: Body Mass
+
+- Predictors of Interest: Species of Toad/Frog
+
+:::
+::: {.column}
+
+![Provided by pexels.com](img/toads.jpg)
+
+:::
+::::
+
+## Smoking Usage
+
+:::: {.columns}
+::: {.column}
+
+- Outcome of Interest: smoking status
+
+- Predictors of Interest: Income
+
+:::
+::: {.column}
+
+![Provided by pexels.com](img/smoking.jpg)
+
+:::
+::::
+
+
+## Ultra Running
+
+:::: {.columns}
+::: {.column}
+
+- Outcome of Interest: Time of Completion
+
+- Predictors of Interest: Majority Surface type
+
+:::
+::: {.column}
+
+![Provided by pexels.com](img/running.jpg)
+
+:::
+::::
+
+
+## Hot Flashes
+
+:::: {.columns}
+::: {.column}
+
+- Outcome of Interest: Experiencing Hot Flash
+
+- Predictors of Interest: Smoking Status
+
+:::
+::: {.column}
+
+![Provided by pexels.com](img/thermometer.jpg)
+
+:::
+::::
+
+## Acupuncture
+
+:::: {.columns}
+::: {.column}
+
+- Outcome of Interest: Migrain Intensity
+
+- Predictors of Interest: Acupuncture Treatment
+
+:::
+::: {.column}
+
+![Provided by pexels.com](img/acu.jpg)
+
+:::
+::::
+
+
+## Any other topics
+
+
+# Sampling Distributions
+
+## Each Statistic has a distribution
 
